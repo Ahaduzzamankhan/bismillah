@@ -1,0 +1,6 @@
+{
+  "name": "Bismillah Beriyani House",
+  "description": "Bismillah Beriyani House (বিসমিল্লাহ বেরিয়ানী হাউস) is a modern restaurant located in Jhalakathi, Bangladesh. This bilingual website showcases their delicious biryani, sides, and drinks with a responsive menu, local stories, and location mapping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-bangla: 'Anek Bangla', sans-serif;
+  --font-display: 'Cinzel', serif;
+  
+  --color-brand-green: #1a4a2e;
+  --color-brand-green-dark: #123320;
+  --color-brand-green-light: #246640;
+  --color-brand-gold: #c9a84c;
+  --color-brand-gold-dark: #aa8936;
+  --color-brand-gold-light: #ecd07a;
+}
+
+/* Islamic Geometric Background Pattern */
+.islamic-pattern {
+  background-color: var(--color-brand-green);
+  background-image: 
+    radial-gradient(circle at 100% 150%, var(--color-brand-gold) 24%, white 24%, white 28%, var(--color-brand-gold) 28%, var(--color-brand-gold) 36%, transparent 36%),
+    radial-gradient(circle at 0% 150%, var(--color-brand-gold) 24%, white 24%, white 28%, var(--color-brand-gold) 28%, var(--color-brand-gold) 36%, transparent 36%),
+    radial-gradient(circle at 50% 100%, white 10%, var(--color-brand-gold) 10%, var(--color-brand-gold) 23%, white 23%, white 30%, transparent 30%),
+    radial-gradient(circle at 100% 50%, var(--color-brand-gold) 5%, transparent 6%),
+    radial-gradient(circle at 0% 50%, var(--color-brand-gold) 5%, transparent 6%);
+  background-size: 80px 40px;
+  background-opacity: 0.08;
+}
+
+/* Elegant Islamic Grid Overlay */
+.islamic-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(201, 168, 76, 0.06) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(201, 168, 76, 0.06) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+
+/* Custom styles for headings */
+.font-bilingual-title {
+  font-family: var(--font-display), var(--font-bangla), serif;
+}
+
+.font-bilingual-body {
+  font-family: var(--font-sans), var(--font-bangla), sans-serif;
+}
